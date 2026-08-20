@@ -1,0 +1,13 @@
+record_id,site_code,record_type,material_type,material_grade,quantity_tonnes,quality_score,condition_score,reusability_score,available_date,demand_date,source_zone,demand_zone,transport_distance_km,transport_capacity_tonnes,transport_cost_per_tonne,estimated_carbon_saving_kgco2e,processing_required_score,contamination_risk_score,storage_readiness_score,buyer_readiness_score,match_status
+R001,DEM-101,SOURCE,Structural Steel,S355,42,94,91,95,2026-09-02,2026-09-08,Zone-A,Zone-C,18,50,14,38500,12,5,92,96,Ready
+R002,DEM-102,SOURCE,Red Brick,Standard,28,88,86,90,2026-09-05,2026-09-12,Zone-B,Zone-C,26,30,11,16800,22,8,88,90,Ready
+R003,DEM-103,SOURCE,Concrete,Grade-30,65,82,79,84,2026-09-10,2026-09-18,Zone-D,Zone-A,41,70,19,27600,38,12,76,84,Review
+R004,DEM-104,SOURCE,Timber,C24,16,91,89,93,2026-09-03,2026-09-07,Zone-A,Zone-B,12,20,9,11200,15,7,95,94,Ready
+R005,DEM-105,SOURCE,Glass,Tempered,9,86,83,87,2026-09-15,2026-09-21,Zone-C,Zone-D,34,12,16,4900,28,10,84,80,Review
+R006,DEM-106,SOURCE,Floor Tile,Porcelain,22,78,76,80,2026-09-06,2026-09-14,Zone-B,Zone-A,20,25,10,8200,30,16,86,78,Review
+R007,CST-201,DEMAND,Structural Steel,S355,38,90,0,0,2026-09-08,2026-09-08,Zone-C,Zone-C,0,0,0,0,0,0,0,93,Open
+R008,CST-202,DEMAND,Red Brick,Standard,24,88,0,0,2026-09-12,2026-09-12,Zone-C,Zone-B,0,0,0,0,0,0,0,89,Open
+R009,CST-203,DEMAND,Timber,C24,14,92,0,0,2026-09-07,2026-09-07,Zone-B,Zone-A,0,0,0,0,0,0,0,95,Open
+R010,CST-204,DEMAND,Concrete,Grade-30,52,86,0,0,2026-09-18,2026-09-18,Zone-A,Zone-D,0,0,0,0,0,0,0,82,Open
+R011,CST-205,DEMAND,Glass,Tempered,8,84,0,0,2026-09-21,2026-09-21,Zone-D,Zone-C,0,0,0,0,0,0,0,79,Open
+R012,CST-206,DEMAND,Floor Tile,Porcelain,18,81,0,0,2026-09-14,2026-09-14,Zone-A,Zone-B,0,0,0,0,0,0,0,86,Open
